@@ -59,7 +59,7 @@ io.on("connection", (socket) => {
 
 });
 
-server.listen(228, (err) => {
+server.listen(8080, (err) => {
 
     if (err) throw Error(err);
 
